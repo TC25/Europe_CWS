@@ -10,3 +10,9 @@ The **'ClusterSummaries'** folder includes the cluster-mean estimates of Temp an
 The **'ClusterSummaries_percentile'** folder includes cluster-scale estimates of the 95th and 98th percentile of CWS measured Temp, RH, and apparent temperature (HI). Separate tables are used for each LST decile region and buffer. 
 
 The **'StationSummaries_percentile'** folder includes estimates of the 95th and 98th percentile of CWS measured Temp, RH, and apparent temperature (HI), for each CWS considered here. Separate tables are used for the LST decile region and buffer. 
+
+# Relevant citations  
+
+Venter, Z. S., Chakraborty, T., & Lee, X. (2021). Crowdsourced air temperatures contrast satellite measures of the urban heat island and its mechanisms. Science Advances, 7(22), eabb9569.  
+
+Chakraborty, T., Venter, Z. S., Qian, Y., & Lee, X. (2022). Lower urban humidity moderates outdoor heat stress. AGU Advances, 3(5), e2022AV000729.
