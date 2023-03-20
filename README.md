@@ -11,7 +11,7 @@ The **'ClusterSummaries_percentile'** folder includes cluster-scale estimates of
 
 The **'StationSummaries_percentile'** folder includes estimates of the 95th and 98th percentile of CWS measured Temp, RH, and apparent temperature (HI), for each CWS considered here. Separate tables are used for the LST decile region and buffer. 
 
-Explanation of column names:
+Explanation of critical column names:
 - Cluster_ID: Unique ID of urban cluster
 - ID, Sensor_ID: Both refer to unique ID of Nettamo sensor
 - Perc: Percentile (or decile) region the data point belongs to
