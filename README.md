@@ -11,6 +11,23 @@ The **'ClusterSummaries_percentile'** folder includes cluster-scale estimates of
 
 The **'StationSummaries_percentile'** folder includes estimates of the 95th and 98th percentile of CWS measured Temp, RH, and apparent temperature (HI), for each CWS considered here. Separate tables are used for the LST decile region and buffer. 
 
+Explanation of column names:
+Cluster_ID: Unique ID of urban cluster
+ID, Sensor_ID: Both refer to unique ID of Nettamo sensor
+Perc: Percentile (or decile) region the data point belongs to
+View_time: Observation time in original time format
+date: Date of measurement
+LST: Land Surface Temperature
+Lat: Latitude
+Lon: Longitude
+Day: Day of the month
+MODIS_Time: Exact MODIS overpass time
+Sensor_Time: Sensor time closest to MODIS overpass time
+first: Can be one of the other columns depending on which variable was extracted using the map reduce operation; ignore this column
+Temp: Netatmo-measured air temperature
+RH: Netatmo-measured relative humidity
+indexMaster and moduleID: Internal indices added during processing; ignore for analysis
+
 # Relevant citations  
 
 Venter, Z. S., Chakraborty, T., & Lee, X. (2021). Crowdsourced air temperatures contrast satellite measures of the urban heat island and its mechanisms. Science Advances, 7(22), eabb9569.  
